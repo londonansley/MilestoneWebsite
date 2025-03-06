@@ -34,3 +34,34 @@ table{
 p{
     background-color: bisque;
 }
+.header{
+    color:red; 
+    text-align: center;
+    font-size: 40px;
+    font-family:fantasy;
+}
+.header:hover{
+    color:skyblue;
+}
+.main{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+.a:hover::after{
+    content: "big heaqphones"
+}
+.b:hover::after{
+    content: "smaller headphones"
+}
+.c:hover::after{
+    content: "skinny headphones"
+}
+.d:hover::after{
+    content: "wireless over-ear headphones"
+}
+.e:hover::after{
+    content: "wireless headphones"
+}
